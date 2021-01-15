@@ -9,5 +9,5 @@ with TelegramClient(
 ) as client:
     session_str = client.session.save()
     s_m = client.send_message("me", session_str)
-    print('Kayıtlı mesajlara baxaraq String nizi görə bilərsiz.')
-    print('Daha sonra isə Herokuya gedərək Deploya davam edin.\n\n@UserBotTG')
+    print('String Session kayıtlı mesajlara qeyd edildi.')
+    print('Herokuya keçerək deploya davam edin.')
