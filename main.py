@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-APP_ID = int(input("@TGUSERBOT\n\nAPP ID yazin: "))
-API_HASH = input("API HASH yazin: ")
+APP_ID = int(input("@TGUSERBOT\n\nAPP ID yazın: "))
+API_HASH = input("API HASH yazın: ")
 with TelegramClient(
     StringSession(), 
     APP_ID, 
