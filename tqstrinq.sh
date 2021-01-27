@@ -5,6 +5,7 @@ clear
 echo -e $MESAJ
 echo "Python yüklənir..."
 pkg install python -y
+pkg install git -y
 clear
 echo -e $MESAJ
 echo "TeleThon yüklənir..."
