@@ -16,9 +16,9 @@ pip install bs4
 clear
 echo -e $MESAJ
 echo "Fayl yazılır..."
-curl "https://raw.githubusercontent.com/thec0ala/TGUserBotString/main/tqstring.py" --output "string.py"
+curl "https://raw.githubusercontent.com/thec0ala/TGUserBotString/main/main.py" --output "main.py"
 clear
 echo -e $MESAJ
 echo "Qurulum bitdi! İndi String ala bilərsiz."
 clear
-python string.py
+python main.py
